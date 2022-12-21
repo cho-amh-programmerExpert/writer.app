@@ -40,7 +40,7 @@ def check_updates():
 
                     if Md is True:
                         # -- Replace the url for your file online with the one below.
-                        webbrowser.open_new_tab('https://raw.githubusercontent.com/cho-amh-programmerExpert/terminal_version/main/Update%20Checker.py')  # Here, put the direct (Raw) link of the updated app for download!
+                        webbrowser.open_new_tab('https://github.com/cho-amh-programmerExpert/writer.app/blob/main/writer.py')  # Here, put the direct (Raw) link of the updated app for download!
                         cfu.destroy()
 
                     else:
