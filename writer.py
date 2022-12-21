@@ -29,7 +29,7 @@ def check_updates():
             if mb1 is True:
                 try:
                     messagebox.showinfo("Software Update", "Click \"ok\" To Start downloading!")
-                    URL = "https://github.com/cho-amh-programmerExpert/terminal_version/blob/main/Update_Checker.py" # Here Put The Updated App  File URL (GITHUB Is Recommended!)
+                    URL = "https://codeload.github.com/cho-amh-programmerExpert/writer.app/zip/refs/heads/main" # Here Put The Updated App  File URL (GITHUB Is Recommended!)
                     d.download(URL, "Update_Checker.py") # And Except "Update Checker.exe" Put The Same File URL But This Time Only The File Name!
                     # An EXE File Is Recommend For THis System
                     messagebox.showinfo("Software Update", "Successfully Downloaded The Update!\nYou Can Delete This File And Use The New Downloaded File!")
